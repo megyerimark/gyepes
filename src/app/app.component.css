@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+
+
+
+
+.container{
+    font-family: 'Xanh Mono', monospace;
+   
+}
+.nevjegy  {
+    font-family: 'Xanh Mono', monospace;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 25
+    
+    
+}
+.nevjegy:hover  {
+    background: #645CAA;
+    border-radius: 35px;
+    color: gold;
+}
+.do:hover{
+    text-align: center;
+    background: #645CAA;
+    border-radius: 35px;
+    color: gold;
+}
+.container{
+    background: #4a8db7;
+    border-radius: 20px;
+}
+
+

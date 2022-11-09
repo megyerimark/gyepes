@@ -3,7 +3,7 @@
       2022.11.09
 -->
 <div class="container">
-  <h1>Feladat 0303</h1>
+  <h1 class="do">Feladat 0303</h1>
   <h2>Gyepesítés</h2>
   <div class="grassForm">
     <div class="mb-3">
@@ -11,10 +11,18 @@
         <input type="text" class="form-control" [(ngModel)]="diameter">
     </div>
     <div class="mb-3">
-      <label for="" class="form-label">Eredmény</label>
-      <input type="text" class="form-control">
+      <label for="" class="form-label">Ennyibe kerül (Ft)</label>
+      <input type="text" class="form-control"
+      [(ngModel)]="price">
     </div>
   </div>
   <button class="btn btn-outline-warning"
+
   (click)="calArea()">Számít</button>
+</div>
+<div class="nevjegy">
+  <h6> Megyeri Márk Máté
+    SZOFT II/N 
+    2022.11.09
+</h6>
 </div>
