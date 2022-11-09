@@ -7,13 +7,14 @@
   <h2>Gyepesítés</h2>
   <div class="grassForm">
     <div class="mb-3">
-      <label for="" class="form-label" ></label>
-        <input type="text" class="form-control">
+      <label for="" class="form-label" >Beviteli mező</label>
+        <input type="text" class="form-control" [(ngModel)]="diameter">
     </div>
     <div class="mb-3">
-      <label for="" placeholder="asd">Eredmény</label>
-      <input type="text" class="form-contorl">
+      <label for="" class="form-label">Eredmény</label>
+      <input type="text" class="form-control">
     </div>
   </div>
-  <button class="btn btn-outline-warning">Számít</button>
+  <button class="btn btn-outline-warning"
+  (click)="calArea()">Számít</button>
 </div>
